@@ -1,60 +1,34 @@
-# Codedamn Projects - Tesla Clone
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is one of the many projects available on [codedamn](https://codedamn.com/projects) to reinforce your learning by building. If you want to become a full stack developer and learn by practicing, feel free to attempt this challenge. Feel free to check out the codedamn [Full Stack Web Development Learning Path](https://codedamn.com/learning-paths/fullstack) to learn more about how to become an awesome full stack developer.
+## Getting Started
 
+First, run the development server:
 
-## Instructions
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-Your challenge is to build out this project and get it looking as close to the design as possible.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can use **any tools or technologies** you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
- 
-You can get the complete idea of the project from checking out the `/designs` folder.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-You can try and replicate by directly visiting the [website](https://tesla.com/)
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### Landing Page 
+## Learn More
 
-The landing page should have the functional nav bar redirecting to all the cars and roof pages 
+To learn more about Next.js, take a look at the following resources:
 
-![landing page](https://raw.githubusercontent.com/codedamn-projects/tesla-clone/master/designs/preview%20image%20%5BDESKTOP%5D.png)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Mobile menu for landing page 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-The menu for mobile version should be responsive
+## Deploy on Vercel
 
-![mobile menu](https://raw.githubusercontent.com/codedamn-projects/tesla-clone/master/designs/Mobile%20Menu%20%5BMOBILE%5D.png)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-#### item page 
-
-On the items pages there should a side bar showing the number of snaps and taking them to the element on clicking from here. 
-
-![side nav](https://raw.githubusercontent.com/codedamn-projects/tesla-clone/master/designs/Solar%20Roof%20%5BDESKTOP%5D.png)
-
-#### Scroll snapping (for mobile and desktop)
-
-![scroll snapping](https://github.com/codedamn-projects/tesla-clone/blob/master/designs/scroll%20snap.gif?raw=true)
-
-
-
-### Ports 
-The Codedamn Playgrounds exposes only `1337` and `1338` ports on the internet. So you'll be using `localhost` for connecting to the mongodb instance as they are hosted on the same docker container. You can specify it as `localhost:27017` or simple write `localhost`. 
-
-
-Want some support on the challenge? [Join our discord community](https://cdm.sh/discord) and ask questions in the **#general** channel.
-
-There is no limit you can go beyond the mentioned criteria and create additional functionalities
-
-
-
-## Where to find everything
-
-Your task is to build out the project as per the provided screenshots. You will find both a mobile and a desktop version of the design.
-
-The designs are in image formats can be found in `/designs`.
-
-You will find all the required required images in the `/public` folder
-
-## Send feedback!
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please visit [codedamn feedback page](https://codedamn.com/contact)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

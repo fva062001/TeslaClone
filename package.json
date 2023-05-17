@@ -1,20 +1,26 @@
 {
-	"name": "vite-react-starter",
-	"version": "0.0.0",
-	"scripts": {
-		"dev": "vite --host --port 1337",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"dependencies": {
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
-	},
-	"devDependencies": {
-		"@vitejs/plugin-react": "^1.0.7",
-		"autoprefixer": "^10.4.13",
-		"postcss": "^8.4.21",
-		"tailwindcss": "^3.2.4",
-		"vite": "^2.7.2"
-	}
+  "name": "tesla-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.39",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "framer-motion": "^10.12.11",
+    "next": "13.4.2",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9",
+    "react-scroll-snap": "^1.0.0",
+    "react-use-scroll-snap": "^0.0.4",
+    "tailwindcss": "3.3.2"
+  }
 }
