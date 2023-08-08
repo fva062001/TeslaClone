@@ -1,9 +1,7 @@
-import React from "react";
+import React, {useRef, useState, useEffect} from "react";
+import {useScroll, useMotionValueEvent} from "framer-motion";
 
 function ItemTab({img, id}) {
-  const onFocusHandler = () => {
-    console.log(id);
-  };
   return (
     <div
       className="snap-center snap-always w-full h-full"

@@ -1,7 +1,7 @@
 import logo from "/public/assets/tesla.svg";
 import Image from "next/image";
 
-function MainInfo({title, desc}) {
+function MainInfo({title, desc, opacity}) {
   return (
     <>
       <div className="hidden md:block lg:block fixed w-full">
@@ -21,14 +21,16 @@ function MainInfo({title, desc}) {
             <p>Menu</p>
           </div>
         </header>
-        <div className="w-full">
+        <div className="w-full" style={{opacity: opacity}}>
           <div className="flex flex-col pt-[12vh] absolute left-1/2 transform -translate-x-1/2 text-center">
             <h1 className="text-4xl font-medium ">{title}</h1>
             <p className="text-lg">{desc}</p>
           </div>
         </div>
       </div>
-      <div className="absolute bottom-[16vh] font-medium flex flex-row left-1/2 transform -translate-x-1/2 space-x-6">
+      <div
+        className="absolute bottom-[16vh] font-medium flex flex-row left-1/2 transform -translate-x-1/2 space-x-6"
+        style={{opacity: opacity}}>
         <button className="bg-[#414346] text-white px-20 py-2 rounded-md">
           Custom Order
         </button>
