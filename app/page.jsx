@@ -84,11 +84,26 @@ export default function Home() {
           ref={containerRef}
           className="snap-y snap-mandatory h-screen overflow-y-scroll"
           id="container">
-          <ItemTab img={model3Image} id={0} />
-          <ItemTab img={modelYImage} id={1} />
-          <ItemTab img={modelSImage} id={2} />
-          <ItemTab img={modelXImage} id={3} />
-          <ItemTab img={solarRoofImage} id={4} />
+          <ItemTab
+            img={model3Image}
+            id={0}
+          />
+          <ItemTab
+            img={modelYImage}
+            id={1}
+          />
+          <ItemTab
+            img={modelSImage}
+            id={2}
+          />
+          <ItemTab
+            img={modelXImage}
+            id={3}
+          />
+          <ItemTab
+            img={solarRoofImage}
+            id={4}
+          />
         </div>
       </div>
     </>
